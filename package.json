@@ -1,0 +1,20 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "Mock Node server to go with any FE app to mock backend apis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*"
+  },
+  "author": "Ajay Vijayakumaran",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
